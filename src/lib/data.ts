@@ -72,7 +72,7 @@ export const projects: Project[] = [
 ];
 
 export const socials: Social[] = [
-  { label: 'GitHub',   href: 'https://github.com/uVitin' },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ae-vitor/' },
-  { label: 'Instagram',  href: 'https://www.instagram.com/ae.vitor_' },
+  { label: "GitHub",   href: "https://github.com/uVitin" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/ae-vitor/" },
+  { label: "Instagram",  href: "https://www.instagram.com/ae.vitor_" },
 ];
