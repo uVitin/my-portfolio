@@ -58,6 +58,6 @@
 
 <div align="center">
 
-Albert vitor - Todos os direitos reservados!
+Albert Vitor - Todos os direitos reservados!
 
 </div>
