@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✦ my-portfolio
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Landing page de portfolio pessoal — dark, moderno e tecnológico.**
+
+[🌐 Ver Demo](#https://my-portfolio-self-two-21.vercel.app/) • [📄 Download CV](#https://github.com/uVitin/my-portfolio/blob/main/public/curriculo-albert-vitor.pdf)
+
+</div>
+
+---
+
+## ✦ Tech Stack
+
+| Camada | Tecnologia | Uso |
+|---|---|---|
+| Framework | **Next.js 15** (App Router) | Estrutura e roteamento |
+| Linguagem | **TypeScript** | Tipagem estática |
+| Animações | **GSAP + ScrollTrigger** | Entrance, scroll reveals, counters |
+| 3D | **Three.js** | Partículas, torus wireframe, icosaedro |
+| Fontes | **Syne + JetBrains Mono + Space Mono** | Tipografia |
+| Deploy | **Vercel** | CI/CD automático |
+
+---
+
+## ✦ Features
+
+- 🎯 **Animação de entrada** — palavras surgindo com GSAP `power4.out`
+- ⌨️ **Typing animation** — loop de frases com efeito de digitação
+- 🌌 **Background 3D** — campo de 1800 partículas + torus + icosaedro wireframe
+- 🖱️ **Parallax** — objetos 3D reagem ao movimento do mouse
+- 📊 **Counters animados** — números contando ao entrar na viewport
+- 🧲 **Efeito magnético** — cards de projeto seguem o cursor
+- 🔲 **Scroll reveals** — seções animadas ao rolar a página
+- 📄 **Download CV** — botão para download direto do currículo em PDF
+- 📱 **Responsivo** — adaptado para mobile, tablet e desktop
+- ⚡ **Performance** — cleanup correto de eventos e geometrias Three.js
+
+---
+
+## ✦ Paleta de cores
+
+```
+--bg:      #050508   Background principal
+--bg2:     #080810   Background secundário
+--surface: #0d0d1a   Cards e superfícies
+--accent:  #00f5c4   Verde — cor principal
+--accent2: #7b61ff   Roxo — cor secundária
+--text:    #e8e8f0   Texto principal
+--muted:   #4a4a6a   Texto secundário
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<div align="center">
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Albert vitor - Todos os direitos reservados!
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+</div>
