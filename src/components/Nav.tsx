@@ -33,7 +33,7 @@ export default function Nav() {
         letterSpacing: '0.1em',
         textDecoration: 'none',
       }}>
-        DEV<span style={{ color: 'var(--muted)' }}>.</span>PORTFOLIO
+        PORTFOLIO<span style={{ color: 'var(--muted)' }}>.</span>DEV
       </a>
 
       <ul style={{ display: 'flex', gap: 40, listStyle: 'none' }}>
