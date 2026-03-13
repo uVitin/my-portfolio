@@ -10,8 +10,6 @@
 
 **Landing page de portfolio pessoal — dark, moderno e tecnológico.**
 
-[🌐 Ver Demo](#https://my-portfolio-self-two-21.vercel.app/) • [📄 Download CV](#https://github.com/uVitin/my-portfolio/blob/main/public/curriculo-albert-vitor.pdf)
-
 </div>
 
 ---
