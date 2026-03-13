@@ -46,7 +46,7 @@ export default function About() {
   }, [])
 
   return (
-    <section id="about" ref={sectionRef} style={{
+    <section id="sobre" ref={sectionRef} style={{
       padding: 'clamp(80px,10vw,120px) clamp(24px,5vw,60px)',
       position: 'relative',
       zIndex: 1,

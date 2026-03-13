@@ -17,7 +17,7 @@ export default function Footer() {
         color: 'var(--muted)',
         letterSpacing: '0.08em',
       }}>
-        © {new Date().getFullYear()} João Silva. Feito com caffeine & código.
+        © {new Date().getFullYear()} Albert Vitor. Todos os direitos reservados.
       </p>
       <p style={{
         fontFamily: "'JetBrains Mono',monospace",

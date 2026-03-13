@@ -16,22 +16,22 @@ export const typingPhrases: string[] = [
 ];
 
 export const stats: Stat[] = [
-    { value: 50, label: "Projetos entregues" },
-    { value: 5, label: "Anos de experiência" },
-    { value: 30, label: "Clientes satisfeitos" },
-    { value: 99, label: "% Score" },
+    { value: 5, label: "Projetos entregues" },
+    { value: 1, label: "Anos de experiência" },
+    { value: 4, label: "Clientes satisfeitos" },
+    { value: 67, label: "% Score" },
 ];
 
 export const skillGroups: SkillGroup[] = [
   {
     icon: '⬡',
     title: 'Frontend',
-    tags: ['React', 'Next.js', 'TypeScript', 'Vue.js', 'Tailwind', 'GSAP', 'Three.js', 'WebGL'],
+    tags: ['React', 'Next.js', 'TypeScript', 'Vue.js', 'Tailwind', 'GSAP',],
   },
   {
     icon: '◈',
     title: 'Backend',
-    tags: ['Node.js', 'Python', 'FastAPI', 'Express', 'PostgreSQL', 'Redis', 'GraphQL', 'REST'],
+    tags: ['Node.js', 'Python', 'Express', 'PostgreSQL', 'GraphQL', 'REST'],
   }
 ];
 

@@ -30,7 +30,7 @@ export default function Skills() {
 
   return (
     <section
-      id="skills"
+      id="habilidades"
       ref={sectionRef}
       style={{
         padding: 'clamp(80px,10vw,120px) clamp(24px,5vw,60px)',

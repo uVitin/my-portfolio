@@ -26,7 +26,7 @@ export default function Contact() {
 
   return (
     <section
-      id="contact"
+      id="contato"
       ref={sectionRef}
       style={{
         padding: 'clamp(80px,10vw,120px) clamp(24px,5vw,60px)',
@@ -102,7 +102,7 @@ function EmailLink() {
         position: 'relative',
       }}
     >
-      joao@devportfolio.com
+      albertvitor_1@hotmail.com
       <span style={{
         position: 'absolute',
         bottom: -4, left: 0, right: 0,

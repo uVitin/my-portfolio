@@ -30,7 +30,7 @@ export default function Projects() {
 
   return (
     <section
-      id="projects"
+      id="projetos"
       ref={sectionRef}
       style={{
         padding: 'clamp(80px,10vw,120px) clamp(24px,5vw,60px)',
@@ -61,7 +61,7 @@ export default function Projects() {
         Projetos que me<br />orgulho.
       </h2>
 
-      <div style={{ marginTop: 60 }}>
+      <div style={{ marginTop: 60}}>
         {projects.map((project) => (
           <ProjectItem key={project.num} project={project} />
         ))}
@@ -95,6 +95,7 @@ function ProjectItem({ project }: { project: Project }) {
       onMouseEnter={() => setHovered(true)}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
+      target="_blank"
       style={{
         display: 'grid',
         gridTemplateColumns: '80px 1fr auto',

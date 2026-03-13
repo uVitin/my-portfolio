@@ -133,7 +133,7 @@ export default function Hero() {
 
         {/* CTAs */}
         <div ref={ctasRef} style={{ display: 'flex', gap: 16, flexWrap: 'wrap', opacity: 0 }}>
-          <a href="#projects" style={{
+          <a href="#projetos" style={{
             fontFamily: "'JetBrains Mono', monospace",
             fontSize: 13,
             letterSpacing: '0.08em',
@@ -153,7 +153,7 @@ export default function Hero() {
             Ver Projetos
           </a>
 
-          <a href="#contact" style={{
+          <a href="#contato" style={{
             fontFamily: "'JetBrains Mono', monospace",
             fontSize: 13,
             letterSpacing: '0.08em',
