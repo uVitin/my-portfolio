@@ -48,7 +48,7 @@ export const projects: Project[] = [
     name: "Kanban App",
     description: "Aplicação de gerenciamento de tarefas no estilo Kanban, inspirada no Trello. Desenvolvida com React no frontend e NestJS no backend, com suporte a múltiplos quadros, drag and drop, checklists e datas de vencimento.",
     tech: ["React", "TypeSript", "Tailwindcss", "Nest.js", "Node.js", "PostgreSQL", "Vercel", "Railway",],
-    href: "https://kanban-app-one-sigma.vercel.app/login",
+    href: "https://kanban-app-one-sigma.vercel.app/",
   },
 ];
 
