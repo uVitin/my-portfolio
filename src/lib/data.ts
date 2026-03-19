@@ -40,7 +40,7 @@ export const projects: Project[] = [
     num: "001",
     name: "AI-Dashboard Financeiro",
     description: "O FinanceAI Dashboard é uma aplicação web fullstack para controle financeiro pessoal, com assistente de inteligência artificial integrado. O projeto foi desenvolvido 100% sem frameworks — Node.js puro no backend e HTML/CSS/JS puro no frontend — como forma de aprofundar o entendimento dos fundamentos do desenvolvimento web.",
-    tech: ["HTML", "CSS", "JavaScritp", "Node,js", "PostgreSQL", "Railway", "Vercel"],
+    tech: ["HTML", "CSS", "JavaScritp", "Node.js", "PostgreSQL", "Railway", "Vercel"],
     href: "https://ai-dashboard-financeiro.vercel.app/",
   },
   {
