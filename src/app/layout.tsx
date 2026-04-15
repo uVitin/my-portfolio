@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { ScrollTrigger } from "gsap/all";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export const metadata: Metadata = {
   title: "Albert Vitor - Full Stack Developer",
-  description: "Portfolio de João Silva, desenvolvedor full stack especializado em React, Next.js, Node.js e experiências web modernas.",
+  description: "Portfolio de Albert Vitor, desenvolvedor full stack especializado em React, Next.js, Node.js e experiências web modernas.",
   openGraph: {
     title: "Albert Vitor - Full Stack Developer",
     description: "Construindo experiências digitais que importam.",

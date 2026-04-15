@@ -6,8 +6,6 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { stats } from '../lib/data'
 import type { Stat } from '../types'
 
-gsap.registerPlugin(ScrollTrigger)
-
 export default function About() {
   const sectionRef = useRef<HTMLElement>(null)
 

@@ -2,11 +2,8 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { projects } from '../lib/data'
 import type { Project } from '../types'
-
-gsap.registerPlugin(ScrollTrigger)
 
 export default function Projects() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -96,6 +93,7 @@ function ProjectItem({ project }: { project: Project }) {
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       target="_blank"
+      rel="noopener noreferrer"
       style={{
         display: 'grid',
         gridTemplateColumns: '80px 1fr auto',

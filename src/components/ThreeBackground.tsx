@@ -56,7 +56,7 @@ export default function ThreeBackground() {
             camera.updateProjectionMatrix();
             renderer.setSize(window.innerWidth, window.innerHeight);
         };
-        document.addEventListener("resize", onResize);
+        window.addEventListener("resize", onResize);
 
         let t = 0;
         let animId: number;

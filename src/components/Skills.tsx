@@ -2,11 +2,8 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { skillGroups } from '../lib/data'
 import type { SkillGroup } from '../types'
-
-gsap.registerPlugin(ScrollTrigger)
 
 export default function Skills() {
   const sectionRef = useRef<HTMLElement>(null)
